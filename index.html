@@ -4,21 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>PT03</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="w-7xl mx-auto mt-[50px]">
       <nav class="flex justify-between items-center">
         <img src="./images/logo2.png" alt="" />
-        <ul class="flex">
+        <ul class="flex text-[#707070] poppins-regular">
           <li class="mr-[30px]"><a href="">Home</a></li>
-          <li class="mr-[30px]"><a href="">Services ></a></li>
-          <li class="mr-[30px]"><a href="">Cases ></a></li>
-          <li class="mr-[30px]"><a href="">Blog ></a></li>
-          <li class="mr-[30px]"><a href="">Contact Us ></a></li>
+          <li class="mr-[30px]">
+            <a href="">Services <i class="ri-arrow-right-wide-line"></i></a>
+          </li>
+          <li class="mr-[30px]">
+            <a href="">Cases <i class="ri-arrow-right-wide-line"></i></a>
+          </li>
+          <li class="mr-[30px]">
+            <a href="">Blog <i class="ri-arrow-right-wide-line"></i></a>
+          </li>
+          <li class="mr-[30px]">
+            <a href="">Contact Us <i class="ri-arrow-right-wide-line"></i></a>
+          </li>
         </ul>
-        <button class="bg-[#b68c5a] px-[30px] py-[18px] rounded-lg">Free Consultation</button>
+        <button
+          class="bg-[#b68c5a] px-[30px] py-[18px] rounded-lg poppins-semibold text-white text-lg"
+        >
+          Free Consultation
+        </button>
       </nav>
+      <section id="banner" class="mt-[70px] w-[1170px] h-[550px] flex flex-col justify-center items-center space-y-7 mx-auto rounded-xl text-white text-center">
+        <h1c class="text-7xl">We Provide Effective <br> Legal Solutions</h1c>
+        <p class="text-base">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+<div class="search">
+            <input type="search" name="" id="" placeholder="Search your services" class="bg-white p-[19px] w-[500px] h-[64px] rounded-xl text-[#707070]">
+        <input type="submit" value="Search" class="bg-[#b68c5a] px-[40px] py-[17px] rounded-lg poppins-semibold text-white text-lg">
+</div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
